@@ -5,33 +5,36 @@ import "../../css/home.css";
 
 export const Home = () => {
   return (
-    <Container className="mt-4">
-      <div className="home-container">
-        <div className="row">
-          <div>
+    <Container className="main-container">
+      <div>
+        <div className="row flex-md-row-reverse">
+          <div className="color col-md-6">
             <h1 className="font-weight-bold">
               Start your day
               <br />
               with coffee
             </h1>
-            <p className="text-grey">
-              The warmth of our environment awaits you to make each cup an
-              unforgettable moment
+            <p className="text-white">
+              <br/>
+              Immerse yourself in a unique experience with our premium coffee.<br/>
+              Captivating aromas, exceptional flavors, and unsurpassed quality.<br/> 
+              Discover pleasure in every cup.
             </p>
-            <Link to="/registro" className="btn btn-outline-info mt-3">
+            <Link to="/registro" className="btn btn-warning  mt-4">
               Crea tu cuenta
             </Link>
           </div>
-          <div>
-            <img src={main} alt="portada1" />
-          </div>
+            <div className="col-md-5">
+              <img src={main} alt="portada1" className="img-fluid img-home"/>
+            </div>
         </div>
         <div className="row">
           <div className="col-8 offset-2 parrafito text-grey">
             <p>
-              Aprende desarrollo web con HTML5, CSS y JavaScript. Backend con
-              Python. React, Go, Laravel. Desarrollo móvil con Android, Flutter
-              y mucho más. <b>Desde tu casa.</b>
+              <b>1234 Elm Street<br/>
+              Anytown, NY 10001<br/>
+              United States
+            </b>
             </p>
           </div>
         </div>
