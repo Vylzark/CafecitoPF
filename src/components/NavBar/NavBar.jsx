@@ -37,24 +37,26 @@ export const NavBar = () => {
 	}
 
 	return (
-		<Navbar bg="dark" variant="dark">
-			<Container>
-				<Navbar.Brand href="#home">
-					<NavLink  to="/">
-						<div className="col-6" class="image-container">
-							<img src={logo} alt="portada1" className="img-fluid d-block"/>
+		<Navbar bg="black" >
+			<Container className="nav-size">
+				<Navbar.Brand href="#home" >
+					<NavLink  to="/" >
+						<div className="image-container">
+							<img src={logo} alt="portada1" className="img-fluid logo"/>
 						</div>
 					</NavLink>
 				</Navbar.Brand>
 				<Nav className="me-auto ">
-					<NavLink to="/" className="fs-4">HOME</NavLink>
-					{!localStorage.getItem("user") && (
-						<>
-							<NavLink to="/login" className="fs-4">LOGIN</NavLink>
-							<NavLink to="/registro" className="fs-4">PRODUCTS</NavLink>
-						</>
-					)}
-					<NavLink to="/courses" className="fs-4">CONTACT US</NavLink>
+					<div className="palabras">
+						<NavLink to="/" className="fs-4">HOME</NavLink>
+						{!localStorage.getItem("user") && (
+							<>
+								<NavLink to="/login" className="fs-4">LOGIN</NavLink>
+								<NavLink to="/registro" className="fs-4">PRODUCTS</NavLink>
+							</>
+						)}
+						<NavLink to="/courses" className="fs-4">CONTACT US</NavLink>
+					</div>
 					<NavLink to="/favoritos" activeClassName="active-link" className="fs-4"><FaShoppingCart /></NavLink>
 					<NavLink to="/menu" activeClassName="active-link" className="fs-4"><FaSearch /></NavLink>
 
