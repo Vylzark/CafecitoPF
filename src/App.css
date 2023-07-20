@@ -116,3 +116,155 @@ input.error {
 	color: red;
 	padding-top: 5px;
 }
+
+/*---------------RESPONSIVE-----------------*/
+
+/* Estilos para medidas mayor o iguales a 1440px y menor a 1024px */
+@media screen and (min-width: 1023px) and (max-width: 1440px) {
+	.nav-size {
+	  height: 10rem !important;
+	}
+  
+	.logo {
+	  width: 56% !important;
+	}
+  
+	.palabras {
+	  padding-right: 15rem;
+	  padding-top: 1rem;
+	}
+  
+
+  
+	.home-container {
+	  margin-top: 150px;
+	}
+  
+	.home-container h1 {
+	  font-size: 2.5rem;
+	}
+  
+	.img-home {
+	  top: -100px;
+	}
+  
+	.color {
+	  padding-right: 7rem;
+	}
+  }
+
+  /* Estilos para medidas mayores o iguales a 768px y menores o iguales a 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.nav-size {
+	  height: 7rem !important;
+	}
+  
+	.logo {
+	  width: 90%;
+	}
+  
+	.fs-4 {
+		font-size: 2rem;
+		margin-left: -10px;
+	  }
+
+	.palabras {
+	  padding-right: 8rem;
+	  padding-top: 0.4rem;
+	}
+  
+	.main-container {
+	  grid-template-columns: repeat(auto-fit, minmax(18rem, auto));
+	  padding-top: 5rem;
+	}
+  
+	.home-container {
+	  margin-top: 100px;
+	}
+  
+	.home-container h1 {
+	  font-size: 2.2rem;
+	}
+  
+	.img-home {
+	  top: -60px;
+	}
+  
+	.color {
+	  padding-right: 5rem;
+	}
+  }
+
+  /* Estilos para medidas menores o iguales a 767px */
+  @media screen and (max-width: 767px) {
+	.nav-size {
+	  height: 10rem !important;
+	}
+  
+	.logo {
+	  width: 70%;
+	}
+  
+	.palabras {
+	  padding-right: 3rem;	
+	  padding-top: 1rem;
+	  text-align: center;
+	}
+  
+	.main-container {
+	  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+	  padding-top: 3rem;
+	}
+  
+	.img-home {
+	  top: 0;
+	}
+  
+	.color {
+	  padding-right: 0;
+	}
+  
+	nav a {
+	  display: block;
+	  padding: 0.5rem 2rem;
+	}
+  
+	.fs-4 {
+	  font-size: 1.2rem;
+	}
+  
+	.home-container {
+	  margin-top: 70px;
+	}
+  
+	.home-container h1 {
+	  font-size: 1.8rem;
+	}
+  
+	.fs-4 {
+	  font-size: 1rem;
+	  margin-left: -85px;
+	  margin-bottom: 10px;
+	}
+	
+	.fs-4 + .fs-4 {
+	  margin-top: -1rem;
+	}
+	
+	.logo {
+	  width: 80%;
+	   
+	  display: block;
+	  margin: 0 auto;
+	}
+
+	.icons-container {
+		position: absolute;
+		top: 80px; 
+		right: 0;
+		padding-left: 40px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+  }
