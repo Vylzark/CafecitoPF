@@ -6,6 +6,7 @@ import { Home } from "./pages/Home";
 import { Menu } from "./pages/Menu";
 import { About } from "./pages/about";
 import { Carrito } from "./pages/Carrito";
+import { SignUp } from "./pages/signUp/signUp";
 import "./App.css"
 
 export const App = () => {
@@ -19,6 +20,7 @@ export const App = () => {
      <Route path="/" element={<Home />}/> 
      <Route path="*" element={<Error404 />}/> 
      <Route path="/Menu" element={<Menu />}/>
+     <Route path="/signup" element={<SignUp/>}/>
     </Routes>
     </BrowserRouter>
   )

@@ -87,3 +87,55 @@ input.error {
 	color: red;
 	padding-top: 5px;
 }
+
+.inputForm {
+	padding-left: 300px; 
+	margin-top: 10px;
+	text-align: center;
+	padding-right: 300px;
+	margin-bottom: 30px;
+}
+
+.btn-custom {
+	background-color:#69410d!important;
+	border-color: #000000!important;
+	color: #d4d4d4!important;
+}
+.btn-custom:hover {
+	background-color:#d4d4d4!important;
+	border-color: #000000!important;
+	color: #69410d!important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+	.nav-size {
+	  height: 10rem !important;
+	}
+
+	.logo {
+	  width: 56% !important;
+	}
+
+	.palabras {
+	  padding-right: 15rem;
+	  padding-top: 1rem;
+	}
+
+
+
+	.home-container {
+	  margin-top: 150px;
+	}
+
+	.home-container h1 {
+	  font-size: 2.5rem;
+	}
+
+	.img-home {
+	  top: -100px;
+	}
+
+	.color {
+	  padding-right: 7rem;
+	}
+  }
