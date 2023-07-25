@@ -52,10 +52,10 @@ export const NavBar = () => {
 						{!localStorage.getItem("user") && (
 							<>
 								<NavLink to="/login" className="fs-4">LOGIN</NavLink>
-								<NavLink to="/registro" className="fs-4">PRODUCTS</NavLink>
+								<NavLink to="/about" className="fs-4">CONTACT US</NavLink>
 							</>
 						)}
-						<NavLink to="/courses" className="fs-4">CONTACT US</NavLink>
+						<NavLink to="/courses" className="fs-4">PRODUCTS</NavLink>
 					</div>
 					<NavLink to="/favoritos" activeClassName="active-link" className="fs-4"><FaShoppingCart /></NavLink>
 					<NavLink to="/menu" activeClassName="active-link" className="fs-4"><FaSearch /></NavLink>
