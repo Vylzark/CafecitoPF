@@ -55,7 +55,7 @@ export const NavBar = () => {
 								<NavLink to="/about" className="fs-4">CONTACT US</NavLink>
 							</>
 						)}
-						<NavLink to="/courses" className="fs-4">PRODUCTS</NavLink>
+						<NavLink to="/administrator" className="fs-4">PRODUCTS</NavLink>
 					</div>
 					<NavLink to="/favoritos" activeClassName="active-link" className="fs-4"><FaShoppingCart /></NavLink>
 					<NavLink to="/menu" activeClassName="active-link" className="fs-4"><FaSearch /></NavLink>

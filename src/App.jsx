@@ -7,6 +7,7 @@ import { Menu } from "./pages/Menu";
 import { About } from "./pages/about";
 import { Carrito } from "./pages/Carrito";
 import "./App.css"
+import { Administrator } from "./pages/Administrator";
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
      <Route path="/" element={<Home />}/> 
      <Route path="*" element={<Error404 />}/> 
      <Route path="/Menu" element={<Menu />}/>
+     <Route path="/administrator" element={<Administrator />}/>
     </Routes>
     </BrowserRouter>
   )
