@@ -21,12 +21,14 @@
           "id": 1,
           "name": "Café Americano",
           "description": "Café negro simple",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/coffe-american.png",
           "price": 2.5
         },
         {
           "id": 2,
           "name": "Café con Leche",
           "description": "Café con leche caliente",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/coffe-milk.png",
           "price": 3.0
         },
         {
