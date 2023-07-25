@@ -57,9 +57,10 @@ export const NavBar = () => {
 						)}
 						<NavLink to="/courses" className="fs-4">CONTACT US</NavLink>
 					</div>
-					<NavLink to="/favoritos" activeClassName="active-link" className="fs-4"><FaShoppingCart /></NavLink>
-					<NavLink to="/menu" activeClassName="active-link" className="fs-4"><FaSearch /></NavLink>
-
+					<div className="icons-container">
+						<NavLink to="/favoritos" activeClassName="active-link" className="fs-4"><FaShoppingCart /></NavLink>
+						<NavLink to="/menu" activeClassName="active-link" className="fs-4"><FaSearch /></NavLink>
+					</div>
 					{localStorage.getItem("user") && (
 						<NavDropdown title="Cursos" id="basic-nav-dropdown">
 							{cursos?.map(curso => (
