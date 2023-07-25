@@ -33,6 +33,7 @@
           "id": 3,
           "name": "Té",
           "description": "Infusión de té",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/te.png",
           "price": 2.0
         },
         {
@@ -79,18 +80,21 @@
           "id": 9,
           "name": "Sándwich de Pollo",
           "description": "Sándwich con pollo y vegetales",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/sandwich-pollo.png",
           "price": 5.5
         },
         {
           "id": 10,
           "name": "Ensalada César",
           "description": "Ensalada con pollo, lechuga y aderezo César",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/ensalada-cesar.png",
           "price": 4.5
         },
         {
           "id": 11,
           "name": "Tostado de Jamón y Queso",
           "description": "Tostado con jamón y queso derretido",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/sandwich-jamon-queso.png",
           "price": 6.0
         }
       ]
@@ -102,18 +106,21 @@
           "id": 12,
           "name": "Tarta de Chocolate",
           "description": "Tarta de chocolate con ganache",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/torta-choco.png",
           "price": 4.0
         },
         {
           "id": 13,
           "name": "Pastel de Zanahoria",
           "description": "Pastel con zanahoria y crema de queso",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/pastel-zanhoria.png",
           "price": 3.5
         },
         {
           "id": 14,
           "name": "Galletas Caseras",
           "description": "Galletas caseras de avena y pasas",
+          "imagen":"https://raw.githubusercontent.com/Vylzark/CafecitoPF/augusto/src/Coffe-img/galletas-avena-y-pasas.png",
           "price": 2.0
         }
       ]
