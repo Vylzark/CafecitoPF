@@ -14,7 +14,7 @@
 }
 
 .team-item:hover {
-    background:#3956de;
+    background:#c0843f;
     color: white;
     transition: 0.5s all;
 }
