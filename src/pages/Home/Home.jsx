@@ -21,7 +21,7 @@ export const Home = () => {
               Discover pleasure in every cup.
             </p>
             <Link to="/registro" className="btn btn-warning  mt-4">
-              Crea tu cuenta
+             create your account
             </Link>
           </div>
             <div className="col-md-5">
