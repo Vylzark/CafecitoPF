@@ -53,7 +53,7 @@ export const About = () => {
           </div>
           
           {teamMembers.map((member, index) => (
-            <div className="col-sm-6 col-md-4" key={index}>
+            <div className="col-12 col-md-6 col-lg-4" key={index}>
               <div className="team-item">
                 <img src={member.image} className="team" alt="pic" />
                 <h3>{member.name}</h3>
