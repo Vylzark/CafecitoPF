@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Container from "react-bootstrap/Container";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { Alert } from "reactstrap";
 
 export const SignUp = () => {
   const initialValues = {username: "", email: "", password: ""};
@@ -56,6 +57,9 @@ export const SignUp = () => {
     } else if(!regexPass.test(values.password)) {
       errors.password = "Invalid password";
     }
+    if (values.username && values.email && values.password) {
+      errors.registroExitoso = <Alert severity="success">The registration was a success! Welcome aboard!</Alert>;
+    }
     return errors;
   };
 
@@ -100,6 +104,9 @@ export const SignUp = () => {
       <Button variant="custom" type="submit">
         Sign Up
       </Button>
+      <div><Form.Text className="text-success">
+          {formErrors.registroExitoso}
+        </Form.Text></div>
     </Form>
     </div>
     </div>
