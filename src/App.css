@@ -117,6 +117,47 @@ input.error {
 	padding-top: 5px;
 }
 
+.inputForm {
+	padding-left: 300px; 
+	margin-top: 10px;
+	text-align: center;
+	padding-right: 300px;
+	margin-bottom: 30px;
+}
+
+.btn-custom {
+	background-color:#b8733a!important;
+	border-color: #34302c!important;
+	color: #bec2cb!important;
+}
+.btn-custom:hover {
+	background-color:#bec2cb!important;
+	border-color: #34302c!important;
+	color: #b8733a!important;
+}
+
+.secondary-container {
+	max-width: 100% !important;
+	min-height: 84.3vh;
+	color:#bec2cb;
+	background: url(Coffe-img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+	align-items: center;
+	padding-top: 8rem;
+}
+.label {
+	display: inline-block;
+	width: 700px;
+	text-align: left;
+}
+.titles {
+	padding-bottom: 3rem;
+}
+
+
+
 /*---------------RESPONSIVE-----------------*/
 
 /* Estilos para medidas mayor o iguales a 1440px y menor a 1024px */
